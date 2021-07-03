@@ -47,7 +47,6 @@ Route::get('/{id}', [
 Route::post('/adminPanel/addTovar', [
     ProductController::class, 'addProduct'
 ])->name('addProduct');
-
 Route::get('/product/{id}', [
     ProductController::class, 'moreProduct'
 ])->name('more-details');

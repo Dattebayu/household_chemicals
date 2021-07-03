@@ -51,10 +51,6 @@ class ProductController extends Controller
       return redirect()->route('index');
   }
 
-
-
-
-
   public function vProduct() {
       $product = Product::get();
       return $product;
